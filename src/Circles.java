@@ -74,6 +74,13 @@ public class Circles {
         System.out.println(c1);
         System.out.println(c2);
 
+        System.out.println("Circle 1 area: " + c1.getArea());
+        System.out.println("Circle 2 area: " + c2.getArea());
+        System.out.println("Circle 1 circumference: " + c1.getCircumference());
+        System.out.println("Circle 2 circumference: " + c2.getCircumference());
+        System.out.println("Circle 1 diameter: " + c1.getDiameter(c1.getRadius()));
+        System.out.println("Circle 2 diameter: " + c2.getDiameter(c2.getRadius()));
+
         if (c1.getRadius() > c2.getRadius()) {
             System.out.println("Circle 1 is bigger than Circle 2");
         } else {
